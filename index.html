@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+		<title>Pomodoro Clock|</title>
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="css/timer.css">
+		
+	<!--SCRIPT'S-->	
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>	
+		<script src="js/timer.js"></script> 
+	<!-- Lettertypes -->
+		<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+		
+	</head>
+	<body>
+		<audio id="sound1">
+			<source src="Defeat.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<div id="theTimerBox" class="container">
+			<div class="row"> 
+				<div id="nameSession"> Session </div>
+				<div class="space"></div>
+				<div id="nameBreak"> Break </div> 
+			</div>
+			<div class="row"> 
+				<div id="min"> - </div>
+				<div id="plus"> + </div> 
+				<div class="space"></div>
+				<div id="minBreak"> - </div>
+				<div id="plusBreak"> + </div> 
+			</div>
+			<div id="containTimerBreak"><div id="timeBreakCon"><div id="timeBreak"> 01:00</div> </div></div>
+			<div id="timeCir"><div id="timeInnerCir"><div id="time"> 25:00 </div></div></div>
+			<div id="vulling"></div>
+			
+		</div>
+
+	</body>
+</html>

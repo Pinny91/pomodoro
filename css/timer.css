@@ -1,0 +1,143 @@
+body {
+	background-color: #1f1f1f;
+	color: #cc7b7b;
+	font-family: 'Cutive Mono', monospace;
+}
+#theTimerBox {
+	max-width: 300px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+#nameBreak, #nameSession {
+	width: 30%;
+	display: inline-block;
+}
+
+#plus, #min, #plusBreak, #minBreak {
+	display: inline-block;
+	width: 15%;
+	border-bottom: solid  #3e7544 2px;
+	border-right: solid  #3e7544 2px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: 800;
+	font-size: 17px;
+	color: #000000;
+	/*Zorgen dat bij het spammen van de knoppen er geen selectie voorkomt*/
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#plus, #min {
+	background-color: #07ef1f;
+	border-bottom: solid  #3e7544 2px;
+	border-right: solid  #3e7544 2px;
+
+}
+#plusBreak, #minBreak { 
+	background-color: #c7d637;
+	border-bottom: solid  #af9b49 2px;
+	border-right: solid  #af9b49 2px;
+		
+}
+#plus:hover, #min:hover {
+	border-bottom: solid  #3e7544 1px;
+	border-right: solid  #3e7544 0px;
+}
+#plusBreak:hover, #minBreak:hover {
+	border-bottom: solid  #af9b49 1px;
+	border-right: solid  #af9b49 0px;
+
+}
+
+
+
+.space {
+	display: inline-block;
+	width: 20%;
+}
+
+.clickBox {
+		cursor: pointer;
+}
+
+#containTimer {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	left:-100px;
+	top: -10px;
+}
+#containTimerBreak {
+	width: 15px;
+	height: 15px;
+	position: relative;
+	width: 25%;
+	top: 20px;
+	right: -190px;
+	z-index: 2;
+}
+#time {
+	padding-top: 70px;
+	position: relative;
+	font-size: 45px;
+	border: solid #1f1f1f 4px;
+	border-radiuS: 100%;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	z-index: 5;
+	cursor: pointer;
+
+}
+#timeInnerCir {
+	border: solid #07ef1f 4px;
+	border-radiuS: 100%;
+	position: relative;
+		cursor: pointer;
+
+}
+#timeCir {
+	position: relative;
+	border-radiuS: 100%;
+	border: solid #1f1f1f 35px;
+	display: inline-block;
+	left: -15px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#vulling {
+	background-color: #0f5a0c;
+	position: relative;
+	width: 200px;
+	height: 0px;
+	z-index: -1;
+	left: 25px;
+	top: -235px;
+}
+
+#timeBreakCon {
+	width: 35px;
+	height: 35px;
+	border-radiuS: 50%;
+	border: solid #c7d637 4px;
+	display: inline-block;
+	padding: 40%;
+	position:relative;
+	z-index: 2;
+
+}
+#timeBreak {
+	position: relative;
+	top: -10px;
+	left: -20px;
+	z-index: 2;
+
+}
