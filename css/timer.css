@@ -100,7 +100,6 @@ body {
 	border: solid #07ef1f 4px;
 	border-radiuS: 100%;
 	position: relative;
-		cursor: pointer;
 
 }
 #timeCir {
@@ -110,7 +109,6 @@ body {
 	display: inline-block;
 	left: -15px;
 	z-index: 1;
-	cursor: pointer;
 }
 
 #vulling {
