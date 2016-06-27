@@ -1,6 +1,6 @@
 body {
-	background-color: #1f1f1f;
-	color: #cc7b7b;
+	background-color: #ffd07f;
+	color: #ab5e5e;
 	font-family: 'Cutive Mono', monospace;
 }
 #theTimerBox {
@@ -17,8 +17,6 @@ body {
 #plus, #min, #plusBreak, #minBreak {
 	display: inline-block;
 	width: 15%;
-	border-bottom: solid  #3e7544 2px;
-	border-right: solid  #3e7544 2px;
 	border-radius: 3px;
 	cursor: pointer;
 	font-weight: 800;
@@ -33,24 +31,24 @@ body {
     user-select: none;
 }
 #plus, #min {
-	background-color: #07ef1f;
-	border-bottom: solid  #3e7544 2px;
-	border-right: solid  #3e7544 2px;
+	background-color: #deb81e;
+	border-bottom: solid  #c39e09 2px;
+	border-right: solid  #c39e09 2px;
 
 }
 #plusBreak, #minBreak { 
 	background-color: #c7d637;
-	border-bottom: solid  #af9b49 2px;
-	border-right: solid  #af9b49 2px;
+	border-bottom: solid  #b0bf20 2px;
+	border-right: solid  #b0bf20 2px;
 		
 }
 #plus:hover, #min:hover {
-	border-bottom: solid  #3e7544 1px;
-	border-right: solid  #3e7544 0px;
+	border-bottom: solid  #c39e09 1px;
+	border-right: solid  #c39e09 0px;
 }
 #plusBreak:hover, #minBreak:hover {
-	border-bottom: solid  #af9b49 1px;
-	border-right: solid  #af9b49 0px;
+	border-bottom: solid  #b0bf20 1px;
+	border-right: solid  #b0bf20 0px;
 
 }
 
@@ -87,7 +85,7 @@ body {
 	padding-top: 70px;
 	position: relative;
 	font-size: 45px;
-	border: solid #1f1f1f 4px;
+	border: solid #ffd07f 4px;
 	border-radiuS: 100%;
 	position: relative;
 	width: 200px;
@@ -97,7 +95,7 @@ body {
 
 }
 #timeInnerCir {
-	border: solid #07ef1f 4px;
+	border: solid #c39e09 4px;
 	border-radiuS: 100%;
 	position: relative;
 
@@ -105,14 +103,14 @@ body {
 #timeCir {
 	position: relative;
 	border-radiuS: 100%;
-	border: solid #1f1f1f 35px;
+	border: solid #ffd07f 35px;
 	display: inline-block;
 	left: -15px;
 	z-index: 1;
 }
 
 #vulling {
-	background-color: #0f5a0c;
+	background-color: #deab52;
 	position: relative;
 	width: 200px;
 	height: 0px;
